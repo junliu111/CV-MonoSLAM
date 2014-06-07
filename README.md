@@ -2,6 +2,7 @@ CV-MonoSLAM
 ===========
 
 This is a monocular SLAM project based on ceiling vision.
+<<<<<<< HEAD
 
 ===========
 
@@ -30,3 +31,5 @@ Acknowledgments
 --------------------------------------------------------------------------------
 
 Many thanks to Xinyuan Zhai for his previous work with this project. Thanks also to Dr. Chen for his supervision of this project, and the help from Baoxian Zhang. 
+=======
+>>>>>>> 5fca7aa3512aa07152ed9dcedcec7f8500585d2f
