@@ -17,6 +17,11 @@ This project was developed under Microsoft Visual Studio 2010, and depends on th
 	GSL GnuWin32 v1.8.<br />
 	•OpenGL.<br />
 	•doxygen v1.8.6.<br />
+	
+### 多行文本框  
+    这是一个有多行的文本框
+    你可以写入代码等,每行文字只要输入两个Tab再输入文字即可
+    这里你可以输入一段代码
 
 Acknowledgments
 --------------------------------------------------------------------------------
