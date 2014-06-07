@@ -13,8 +13,8 @@ Requirements
 ---------------
 
 ### This project was developed under Microsoft Visual Studio 2010, and depends on the following software:
-	* OpenCV v2.4.3.
-	* GSL GnuWin32 v1.8.
+* 	OpenCV v2.4.3.
+* 	GSL GnuWin32 v1.8.
 	* OpenGL.
 	* doxygen v1.8.6.
 
