@@ -1,0 +1,494 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\MonoSLAM.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MonoSLAM.ico"
+IDR_MonoSLAMTYPE        ICON                    "res\\MonoSLAMDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",                  ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "最近的文件",                       ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                     ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 MonoSLAM(&A)...",          ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+IDR_ACCELERATOR ACCELERATORS
+BEGIN
+    VK_RETURN,      IDC_BTN_AUTO,           VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      IDC_BTN_EXIT,           VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      IDC_BTN_RESET,          VIRTKEY, NOINVERT
+    VK_F5,          IDC_BTN_SLAM,           VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MonoSLAM"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "MonoSLAM, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_MONOSLAM_FORM DIALOGEX 0, 0, 720, 381
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "AUTO",IDC_BTN_AUTO,565,335,48,20
+    PUSHBUTTON      "SLAM",IDC_BTN_SLAM,396,340,43,14
+    GROUPBOX        "Control",IDC_STATIC,386,326,307,34
+    PUSHBUTTON      "Reset",IDC_BTN_RESET,496,340,43,14
+    LTEXT           "Steps:",IDC_STATIC,442,344,24,10
+    CONTROL         "OpenCMD",IDC_OPEN_CMD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,468,232,47,10
+    EDITTEXT        IDC_STEP_NUM,465,341,24,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_PICTURE_SHOW,"Static",SS_BLACKFRAME | SS_CENTERIMAGE | SS_REALSIZEIMAGE,386,34,191,158
+    CONTROL         "",IDC_FEATURE_SHOW,"Static",SS_BLACKFRAME,22,35,352,325
+    PUSHBUTTON      "EXIT",IDC_BTN_EXIT,629,335,48,20
+    LTEXT           "Features Location",IDC_STATIC,582,20,56,8
+    EDITTEXT        IDC_FEATURES_INFO,582,34,113,158,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "Matched:",IDC_STATIC,394,249,30,8
+    LTEXT           "num",IDC_MATCHED_NUM,436,249,15,8
+    LTEXT           "Predicted:",IDC_STATIC,394,232,33,8
+    LTEXT           "num",IDC_PREDICTED_NUM,436,232,15,8
+    LTEXT           "Total:",IDC_STATIC,394,215,19,8
+    LTEXT           "num",IDC_FEATURES_NUM,436,215,15,8
+    LTEXT           "Image:",IDC_STATIC,388,20,23,10
+    LTEXT           "3D Model",IDC_STATIC,27,20,69,10
+    LTEXT           "num",IDC_RAW_FRAME,413,20,16,8
+    CONTROL         "",IDC_LIST_CTRL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,386,277,307,30
+    PUSHBUTTON      "Source File",IDC_BTN_SOURCE_FILE,466,248,49,14
+    CONTROL         "Debug",IDC_RADIO_DEBUG,"Button",BS_AUTORADIOBUTTON | WS_GROUP,468,214,37,10
+    CONTROL         "Release",IDC_RADIO_RELEASE,"Button",BS_AUTORADIOBUTTON,520,214,39,10
+    GROUPBOX        "MODEL",IDC_STATIC,461,201,113,68
+    PUSHBUTTON      "Odometry File",IDC_BTN_ODOMETRY_FILE,520,248,49,14
+    PUSHBUTTON      "Parameters",IDC_BTN_SET_PARAMETERS,520,230,49,14
+    GROUPBOX        "FEATURES:",IDC_STATIC,386,201,70,68
+    GROUPBOX        "SHOW",IDC_STATIC,577,201,56,68
+    CONTROL         "Odometry",IDC_CHECK_SHOW_ODOMETRY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,244,47,10
+    CONTROL         "Robot Path",IDC_CHECK_SHOW_PATH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,583,222,48,10
+    GROUPBOX        "ELAPSED TIME",IDC_STATIC,637,201,57,68
+    LTEXT           "Frame(s):",IDC_STATIC,641,214,29,10
+    LTEXT           "Total(s):",IDC_STATIC,641,240,28,8
+    LTEXT           "Static",IDC_FRAME_TIME,649,226,37,8
+    LTEXT           "Static",IDC_TOTAL_TIME,649,255,37,8
+END
+
+IDD_PARAMETER DIALOGEX 0, 0, 246, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameters Setting"
+FONT 9, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDC_BTN_OK,161,228,43,12
+    PUSHBUTTON      "Cancel",IDC_BTN_CANCEL,43,228,43,12
+    LTEXT           "Measure:",IDC_STATIC,27,128,34,8
+    EDITTEXT        IDC_SIGMA_MEASURE,71,127,34,12,ES_AUTOHSCROLL
+    GROUPBOX        "Noise Value",IDC_STATIC,17,116,209,53
+    LTEXT           "a1:",IDC_STATIC,27,142,11,8
+    EDITTEXT        IDC_ODO_A1,71,139,34,12,ES_AUTOHSCROLL
+    LTEXT           "a2:",IDC_STATIC,125,142,11,8
+    EDITTEXT        IDC_ODO_A2,183,139,34,12,ES_AUTOHSCROLL
+    LTEXT           "a3:",IDC_STATIC,27,155,11,8
+    EDITTEXT        IDC_ODO_A3,71,151,34,12,ES_AUTOHSCROLL
+    LTEXT           "a4:",IDC_STATIC,125,155,11,8
+    EDITTEXT        IDC_ODO_A4,183,151,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIGMA_RHO,183,127,34,12,ES_AUTOHSCROLL
+    LTEXT           "RHO:",IDC_STATIC,125,128,17,8
+    LTEXT           "Process_NUM:",IDC_STATIC,125,53,51,8
+    LTEXT           "Init_NUM:",IDC_STATIC,27,53,43,8
+    LTEXT           "MIN_NUM:",IDC_STATIC,27,66,43,8
+    LTEXT           "MIN_DIST:",IDC_STATIC,125,66,49,8
+    EDITTEXT        IDC_INIT_NUM,71,51,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_NUM,71,64,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_DIST,183,64,34,12,ES_AUTOHSCROLL
+    LTEXT           "BlockSize:",IDC_STATIC,27,40,43,8
+    EDITTEXT        IDC_BLOCK_SIZE,71,38,34,12,ES_AUTOHSCROLL
+    CONTROL         "UseHarris:",IDC_CHECK_HARRIS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,26,43,10
+    GROUPBOX        "Finding KeyPoints",IDC_STATIC,17,13,209,68
+    LTEXT           "QualityLevel:",IDC_STATIC,125,40,43,8
+    EDITTEXT        IDC_QUALITY_LEVEL,183,38,34,12,ES_AUTOHSCROLL
+    LTEXT           "Deep:",IDC_STATIC,27,27,43,8
+    EDITTEXT        IDC_DEEP,71,25,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROCESS_NUM,183,51,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_THRESHOLD_RANSAC,183,95,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_THRESHOLD_MATCHING,71,95,34,12,ES_AUTOHSCROLL
+    LTEXT           "Matching:",IDC_STATIC,27,97,39,8
+    GROUPBOX        "Recording Output:",IDC_STATIC,17,173,209,48
+    EDITTEXT        IDC_ROBOT_PATH,67,186,120,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_ROBOT,196,186,21,12
+    EDITTEXT        IDC_FEATURES_PATH,67,201,120,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_FEATURES,196,201,21,12
+    GROUPBOX        "Threshold",IDC_STATIC,17,85,209,27
+    CONTROL         "RANSAC:",IDC_CHECK_RANSAC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,125,96,44,10
+    CONTROL         "Robot:",IDC_CHECK_ROBOT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,188,41,10
+    CONTROL         "Features:",IDC_CHECK_FEATURES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,202,39,10
+    LTEXT           "Static",IDC_HARRIS,184,26,34,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "MonoSLAM.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "MonoSLAM.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MONOSLAM_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 710
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 369
+    END
+
+    IDD_PARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "MonoSLAM\n\nMonoSLAM\n\n\nMonoSLAM.Document\nMonoSLAM.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MonoSLAM"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "创建新文档\n新建"
+    ID_FILE_OPEN            "打开现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "用新名称保存活动文档\n另存为"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "打开此文档"
+    ID_FILE_MRU_FILE2       "打开此文档"
+    ID_FILE_MRU_FILE3       "打开此文档"
+    ID_FILE_MRU_FILE4       "打开此文档"
+    ID_FILE_MRU_FILE5       "打开此文档"
+    ID_FILE_MRU_FILE6       "打开此文档"
+    ID_FILE_MRU_FILE7       "打开此文档"
+    ID_FILE_MRU_FILE8       "打开此文档"
+    ID_FILE_MRU_FILE9       "打开此文档"
+    ID_FILE_MRU_FILE10      "打开此文档"
+    ID_FILE_MRU_FILE11      "打开此文档"
+    ID_FILE_MRU_FILE12      "打开此文档"
+    ID_FILE_MRU_FILE13      "打开此文档"
+    ID_FILE_MRU_FILE14      "打开此文档"
+    ID_FILE_MRU_FILE15      "打开此文档"
+    ID_FILE_MRU_FILE16      "打开此文档"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\MonoSLAM.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
