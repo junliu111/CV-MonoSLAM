@@ -31,4 +31,4 @@ Acknowledgments
 
 Many thanks to Xinyuan Zhai for his previous work with this project. Thanks also to [Dr. Chen](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=488) for his supervision of this project, and the help from Baoxian Zhang.
 
-![image](https://github.com/mejliu/CV-MonoSLAM/raw/master/Images/TurtleBot.png)
+![image](https://github.com/mejliu/CV-MonoSLAM/raw/master/Images/TurtleBot.PNG)
