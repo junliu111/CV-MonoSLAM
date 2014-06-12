@@ -3,7 +3,8 @@ CV-MonoSLAM
 
 This is a monocular SLAM project based on ceiling vision.
 
-Harbin Institute of Technology Shenzhen Graduate School
+Harbin Institute of Technology
+Shenzhen Graduate School
 
 Email  : [Jun Liu](mailto:mejunliu@gmail.com)
 
