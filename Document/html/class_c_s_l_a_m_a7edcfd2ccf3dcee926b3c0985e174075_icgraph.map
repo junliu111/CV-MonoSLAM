@@ -1,0 +1,6 @@
+<map id="CSLAM::recordRobotInformation" name="CSLAM::recordRobotInformation">
+<area shape="rect" id="node2" href="$class_c_s_l_a_m.html#a1a3f3c6d1c6f8e2e07ba7f312606338c" title="Info recording. " alt="" coords="261,31,400,57"/>
+<area shape="rect" id="node3" href="$class_c_s_l_a_m.html#a80f6155a2e9788f0efb7f368b68df831" title="Processing of SLAM. " alt="" coords="449,31,559,57"/>
+<area shape="rect" id="node4" href="$class_c_mono_s_l_a_m_view.html#ac1a5b29a815277fe48263eb4641b0c93" title="CMonoSLAMView::OnBnClickedSLAM" alt="" coords="609,5,855,32"/>
+<area shape="rect" id="node5" href="$class_c_mono_s_l_a_m_view.html#a93701bef5403f8cb0842ca728404a0e3" title="CMonoSLAMView::OnBnClickedAuto" alt="" coords="613,56,851,83"/>
+</map>

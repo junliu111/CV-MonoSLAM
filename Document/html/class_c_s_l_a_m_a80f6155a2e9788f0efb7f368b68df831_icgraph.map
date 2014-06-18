@@ -1,0 +1,4 @@
+<map id="CSLAM::SLAM" name="CSLAM::SLAM">
+<area shape="rect" id="node2" href="$class_c_mono_s_l_a_m_view.html#ac1a5b29a815277fe48263eb4641b0c93" title="CMonoSLAMView::OnBnClickedSLAM" alt="" coords="166,5,413,32"/>
+<area shape="rect" id="node3" href="$class_c_mono_s_l_a_m_view.html#a93701bef5403f8cb0842ca728404a0e3" title="CMonoSLAMView::OnBnClickedAuto" alt="" coords="170,56,409,83"/>
+</map>

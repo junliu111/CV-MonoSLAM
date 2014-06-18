@@ -1,0 +1,8 @@
+<map id="CSLAM::insureEnoughFeatures" name="CSLAM::insureEnoughFeatures">
+<area shape="rect" id="node2" href="$class_c_s_l_a_m.html#a03dd3280948f837cd51d1fc0e149a6a4" title="Features filtering. " alt="" coords="259,122,434,163"/>
+<area shape="rect" id="node3" href="$class_c_s_l_a_m.html#a6a2e5ad9c88939b5a16671594cc93e62" title="Rotation matrix computation. " alt="" coords="493,5,667,32"/>
+<area shape="rect" id="node4" href="$class_c_s_l_a_m.html#ab5b37bf7b14dd233ac4171797a035eda" title="coordinate transformation. " alt="" coords="490,57,670,98"/>
+<area shape="rect" id="node5" href="$class_c_s_l_a_m.html#a22e6803a4e1b4f01003138cab269ed27" title="coordinate transformation. " alt="" coords="489,122,671,163"/>
+<area shape="rect" id="node6" href="$class_c_s_l_a_m.html#a29508ebc6507aab0b651c6b0f4264c40" title="coordinate transformation. " alt="" coords="483,187,677,229"/>
+<area shape="rect" id="node7" href="$class_c_s_l_a_m.html#a3721327d0b02a524662bc1b5fb4e564d" title="Feature distortion. " alt="" coords="487,253,673,280"/>
+</map>

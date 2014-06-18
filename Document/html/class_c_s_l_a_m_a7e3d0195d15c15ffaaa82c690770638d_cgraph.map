@@ -1,0 +1,5 @@
+<map id="CSLAM::wrapPatch" name="CSLAM::wrapPatch">
+<area shape="rect" id="node2" href="$class_c_s_l_a_m.html#a6a2e5ad9c88939b5a16671594cc93e62" title="Rotation matrix computation. " alt="" coords="203,5,378,32"/>
+<area shape="rect" id="node3" href="$class_c_s_l_a_m.html#a0dfc931db26c1fed0892384c086f40f8" title="Feature undistortion. " alt="" coords="190,56,391,83"/>
+<area shape="rect" id="node4" href="$class_c_s_l_a_m.html#a3721327d0b02a524662bc1b5fb4e564d" title="Feature distortion. " alt="" coords="197,107,384,133"/>
+</map>

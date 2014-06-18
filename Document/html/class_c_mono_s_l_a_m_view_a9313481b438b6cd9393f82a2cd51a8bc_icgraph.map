@@ -1,0 +1,7 @@
+<map id="CMonoSLAMView::OnPaint" name="CMonoSLAMView::OnPaint">
+<area shape="rect" id="node2" href="$class_c_mono_s_l_a_m_view.html#a6259e3ed2b280fcf341e439dd8ac2228" title="CMonoSLAMView::OnMouseWheel" alt="" coords="247,5,475,32"/>
+<area shape="rect" id="node3" href="$class_c_mono_s_l_a_m_view.html#a3e9f38c94c436b2ff32718c04738fcc0" title="CMonoSLAMView::OnBnClicked\lOdometryFile" alt="" coords="256,57,467,98"/>
+<area shape="rect" id="node4" href="$class_c_mono_s_l_a_m_view.html#ac1a5b29a815277fe48263eb4641b0c93" title="CMonoSLAMView::OnBnClickedSLAM" alt="" coords="238,123,485,149"/>
+<area shape="rect" id="node5" href="$class_c_mono_s_l_a_m_view.html#a93701bef5403f8cb0842ca728404a0e3" title="CMonoSLAMView::OnBnClickedAuto" alt="" coords="242,173,481,200"/>
+<area shape="rect" id="node6" href="$class_c_mono_s_l_a_m_view.html#ad057096629b4d7e895f66ad9da083746" title="CMonoSLAMView::OnBnClicked\lRestart" alt="" coords="256,225,467,266"/>
+</map>

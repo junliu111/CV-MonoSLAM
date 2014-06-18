@@ -1,0 +1,13 @@
+<map id="CMonoSLAMView::OnMouseWheel" name="CMonoSLAMView::OnMouseWheel">
+<area shape="rect" id="node2" href="$class_c_mono_s_l_a_m_view.html#a9313481b438b6cd9393f82a2cd51a8bc" title="CMonoSLAMView::OnPaint" alt="" coords="283,111,466,137"/>
+<area shape="rect" id="node3" href="$class_c_s_l_a_m.html#a6a20501ec9668e00d5e8b691fa9553af" title="Features&#39; 2D showing. " alt="" coords="515,56,725,83"/>
+<area shape="rect" id="node7" href="$class_c_open_gl_display.html#a6d9597a48358625b77ebf5a7ec419000" title="COpenGlDisplay::showModel" alt="" coords="525,165,715,192"/>
+<area shape="rect" id="node4" href="$class_c_s_l_a_m.html#ae6ad9eaab8b872d6eac419b16248139d" title="Draw 2D ellipse. " alt="" coords="792,5,949,32"/>
+<area shape="rect" id="node5" href="$class_c_cv_image.html#a980e9e3233fc9573bcc9a51390d9a420" title="CCvImage::CopyOf" alt="" coords="805,56,936,83"/>
+<area shape="rect" id="node6" href="$class_c_cv_image.html#ac8013608f8ee9b2062ca7fab6c74dd4e" title="CCvImage::GetImage" alt="" coords="1033,56,1177,83"/>
+<area shape="rect" id="node8" href="$class_c_open_gl_display.html#a3bdabc78dc5d025a4707c45664f1eb95" title="COpenGlDisplay::drawRobot" alt="" coords="777,107,964,133"/>
+<area shape="rect" id="node9" href="$class_c_open_gl_display.html#a0ae4f9e84fbf1cf150a1de9f3af18ec5" title="COpenGlDisplay::drawPath\lAndOdometry" alt="" coords="781,158,961,199"/>
+<area shape="rect" id="node10" href="$class_c_open_gl_display.html#a93251556069a0c91e937717b24ed7c5e" title="COpenGlDisplay::drawCurrent\lFeatures" alt="" coords="773,223,968,265"/>
+<area shape="rect" id="node12" href="$class_c_open_gl_display.html#a28b99dc897758007b5a5a4d863320f6b" title="COpenGlDisplay::drawHistory\lFeatures" alt="" coords="773,289,968,330"/>
+<area shape="rect" id="node11" href="$class_c_open_gl_display.html#aa98f2b616b4bbbe6643ef9e959faa3d3" title="COpenGlDisplay::drawText" alt="" coords="1016,231,1195,257"/>
+</map>

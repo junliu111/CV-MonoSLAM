@@ -1,0 +1,9 @@
+<map id="CMonoSLAMView::PreTranslateMessage" name="CMonoSLAMView::PreTranslateMessage">
+<area shape="rect" id="node2" href="$class_c_open_gl_display.html#a39edff71ccc0ec1897c986ad049a46c8" title="COpenGlDisplay::KeyProcessing" alt="" coords="262,47,477,73"/>
+<area shape="rect" id="node3" href="$class_c_open_gl_display.html#a6d9597a48358625b77ebf5a7ec419000" title="COpenGlDisplay::showModel" alt="" coords="274,97,465,124"/>
+<area shape="rect" id="node4" href="$class_c_open_gl_display.html#a3bdabc78dc5d025a4707c45664f1eb95" title="COpenGlDisplay::drawRobot" alt="" coords="529,5,716,32"/>
+<area shape="rect" id="node5" href="$class_c_open_gl_display.html#a0ae4f9e84fbf1cf150a1de9f3af18ec5" title="COpenGlDisplay::drawPath\lAndOdometry" alt="" coords="533,57,713,98"/>
+<area shape="rect" id="node6" href="$class_c_open_gl_display.html#a93251556069a0c91e937717b24ed7c5e" title="COpenGlDisplay::drawCurrent\lFeatures" alt="" coords="525,122,720,163"/>
+<area shape="rect" id="node8" href="$class_c_open_gl_display.html#a28b99dc897758007b5a5a4d863320f6b" title="COpenGlDisplay::drawHistory\lFeatures" alt="" coords="525,187,720,229"/>
+<area shape="rect" id="node7" href="$class_c_open_gl_display.html#aa98f2b616b4bbbe6643ef9e959faa3d3" title="COpenGlDisplay::drawText" alt="" coords="768,129,947,156"/>
+</map>
