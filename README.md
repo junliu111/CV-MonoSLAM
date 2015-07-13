@@ -24,10 +24,5 @@ This project was developed under Microsoft Visual Studio 2010, and depends on th
 * GSL GnuWin32 v1.8.
 * OpenGL.
 
-Acknowledgments
---------------------------------------------------------------------------------
-
-Many thanks to Xinyuan Zhai for his previous work with this project. Thanks also to [Dr. Chen](http://www.hitsz.edu.cn/body/shizi/detailen.php?strID=488) for his supervision of this project, and the help from Baoxian Zhang.
-
 
 Note: The ceiling vision test images is too large to upload.
