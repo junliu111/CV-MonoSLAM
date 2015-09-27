@@ -29,4 +29,4 @@ Note: The ceiling vision test images is too large to upload.
 
 For algorithm, please follow this [link][link]
 
-[link]:http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6739701&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6739701
+[link]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6739701
