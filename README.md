@@ -27,6 +27,6 @@ This project was developed under Microsoft Visual Studio 2010, and depends on th
 
 Note: The ceiling vision test images is too large to upload.
 
-**For algorithm, please follow this [link][link]**
+***For algorithm, please follow this [link][link]***
 
 [link]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6739701
