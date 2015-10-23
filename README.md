@@ -30,3 +30,5 @@ Note: The ceiling vision test images is too large to upload.
 ***For algorithm, please follow this [link][link]***
 
 [link]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6739701
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mejliu/cv-monoslam/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
