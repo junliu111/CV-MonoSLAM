@@ -1,7 +1,7 @@
 CV-MonoSLAM
 ===========
 
-## code for the paper *"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"*
+## code for the paper `"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"`
 
 
 Introduction
@@ -19,6 +19,6 @@ This project was developed under Microsoft Visual Studio 2010, and depends on th
 * GSL GnuWin32 v1.8.
 * OpenGL.
 
-***For algorithm, please follow this [link][link]: paper *"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"* ***
+***For algorithm, please follow this [link][link]: paper `"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"` ***
 
 [link]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6739701
