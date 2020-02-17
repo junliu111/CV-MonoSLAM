@@ -1,10 +1,8 @@
 CV-MonoSLAM
 ===========
 
-code for the paper 
+## code for the paper *"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"*
 
-"Square Root Unscented Kalman Filter based Ceiling Vision SLAM"
-------------
 
 Introduction
 ------------
